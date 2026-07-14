@@ -86,7 +86,7 @@ article {
   background-color: var(--color-grey-800);
   padding: var(--spacing-500);
   gap: var(--spacing-300);
-  border-radius: 0.75rem;
+  border-radius: 12px;
   width: clamp(100%, 24rem, calc(100vw - 2rem));
 }
 
@@ -95,8 +95,8 @@ article {
 }
 
 .avatar {
-  width: 4.375rem;
-  height: 4.375rem;
+  width: 88px;
+  height: 88px;
   border-radius: 9999px;
 }
 
