@@ -10,15 +10,15 @@
 	--color-grey-900: #141414;
 	--color-white: #ffffff;
 
-	--font-size-text-preset-1: 24px;
-	--font-size-text-preset-2: 14px;
+	--font-size-text-preset-1: 1.5rem;
+	--font-size-text-preset-2: 0.875rem;
 
-	--spacing-100: 8px;
-	--spacing-150: 12px;
-	--spacing-200: 16px;
-	--spacing-300: 24px;
-	--spacing-50: 4px;
-	--spacing-500: 40px;
+	--spacing-100: 0.5rem;
+	--spacing-150: 0.75rem;
+	--spacing-200: 1rem;
+	--spacing-300: 1.5rem;
+	--spacing-50: 0.25rem;
+	--spacing-500: 2.5rem;
 }
 
 
@@ -86,8 +86,8 @@ article {
   background-color: var(--color-grey-800);
   padding: var(--spacing-500);
   gap: var(--spacing-300);
-  border-radius: 12px;
-  width: clamp(100%, 384px, calc(100vw - 2rem));
+  border-radius: 0.75rem;
+  width: clamp(100%, 24rem, calc(100vw - 2rem));
 }
 
 .location {
@@ -95,8 +95,8 @@ article {
 }
 
 .avatar {
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   border-radius: 9999px;
 }
 
@@ -113,7 +113,14 @@ ul {
 li {
   background-color: var(--color-grey-700);
   padding: var(--spacing-150);
-  border-radius: 5px;
+  border-radius: 0.3125rem;
+}
+
+li:hover {
+  background-color: var(--color-green);
+  color: var(--color-grey-700);
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .general-info {
